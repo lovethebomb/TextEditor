@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB40C08616367BDC00BE45F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB40C08516367BDC00BE45F3 /* UIKit.framework */; };
+		BB40C08816367BDC00BE45F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB40C08716367BDC00BE45F3 /* Foundation.framework */; };
+		BB40C08A16367BDC00BE45F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB40C08916367BDC00BE45F3 /* CoreGraphics.framework */; };
+		BB40C09016367BDC00BE45F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB40C08E16367BDC00BE45F3 /* InfoPlist.strings */; };
+		BB40C09216367BDC00BE45F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40C09116367BDC00BE45F3 /* main.m */; };
+		BB40C09616367BDC00BE45F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40C09516367BDC00BE45F3 /* AppDelegate.m */; };
+		BB40C09916367BDC00BE45F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40C09816367BDC00BE45F3 /* ViewController.m */; };
+		BB40C09C16367BDC00BE45F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB40C09A16367BDC00BE45F3 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB40C08116367BDC00BE45F3 /* TextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40C08516367BDC00BE45F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB40C08716367BDC00BE45F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB40C08916367BDC00BE45F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB40C08D16367BDC00BE45F3 /* TextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextEditor-Info.plist"; sourceTree = "<group>"; };
+		BB40C08F16367BDC00BE45F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB40C09116367BDC00BE45F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB40C09316367BDC00BE45F3 /* TextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		BB40C09416367BDC00BE45F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB40C09516367BDC00BE45F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB40C09716367BDC00BE45F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB40C09816367BDC00BE45F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB40C09B16367BDC00BE45F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB40C07E16367BDC00BE45F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40C08616367BDC00BE45F3 /* UIKit.framework in Frameworks */,
+				BB40C08816367BDC00BE45F3 /* Foundation.framework in Frameworks */,
+				BB40C08A16367BDC00BE45F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB40C07616367BDC00BE45F3 = {
+			isa = PBXGroup;
+			children = (
+				BB40C08B16367BDC00BE45F3 /* TextEditor */,
+				BB40C08416367BDC00BE45F3 /* Frameworks */,
+				BB40C08216367BDC00BE45F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB40C08216367BDC00BE45F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB40C08116367BDC00BE45F3 /* TextEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB40C08416367BDC00BE45F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB40C08516367BDC00BE45F3 /* UIKit.framework */,
+				BB40C08716367BDC00BE45F3 /* Foundation.framework */,
+				BB40C08916367BDC00BE45F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB40C08B16367BDC00BE45F3 /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				BB40C09416367BDC00BE45F3 /* AppDelegate.h */,
+				BB40C09516367BDC00BE45F3 /* AppDelegate.m */,
+				BB40C09716367BDC00BE45F3 /* ViewController.h */,
+				BB40C09816367BDC00BE45F3 /* ViewController.m */,
+				BB40C09A16367BDC00BE45F3 /* ViewController.xib */,
+				BB40C08C16367BDC00BE45F3 /* Supporting Files */,
+			);
+			path = TextEditor;
+			sourceTree = "<group>";
+		};
+		BB40C08C16367BDC00BE45F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB40C08D16367BDC00BE45F3 /* TextEditor-Info.plist */,
+				BB40C08E16367BDC00BE45F3 /* InfoPlist.strings */,
+				BB40C09116367BDC00BE45F3 /* main.m */,
+				BB40C09316367BDC00BE45F3 /* TextEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB40C08016367BDC00BE45F3 /* TextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB40C09F16367BDC00BE45F3 /* Build configuration list for PBXNativeTarget "TextEditor" */;
+			buildPhases = (
+				BB40C07D16367BDC00BE45F3 /* Sources */,
+				BB40C07E16367BDC00BE45F3 /* Frameworks */,
+				BB40C07F16367BDC00BE45F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEditor;
+			productName = TextEditor;
+			productReference = BB40C08116367BDC00BE45F3 /* TextEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB40C07816367BDC00BE45F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Heymès Lucas";
+			};
+			buildConfigurationList = BB40C07B16367BDC00BE45F3 /* Build configuration list for PBXProject "TextEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB40C07616367BDC00BE45F3;
+			productRefGroup = BB40C08216367BDC00BE45F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB40C08016367BDC00BE45F3 /* TextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB40C07F16367BDC00BE45F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40C09016367BDC00BE45F3 /* InfoPlist.strings in Resources */,
+				BB40C09C16367BDC00BE45F3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB40C07D16367BDC00BE45F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40C09216367BDC00BE45F3 /* main.m in Sources */,
+				BB40C09616367BDC00BE45F3 /* AppDelegate.m in Sources */,
+				BB40C09916367BDC00BE45F3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB40C08E16367BDC00BE45F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB40C08F16367BDC00BE45F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB40C09A16367BDC00BE45F3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB40C09B16367BDC00BE45F3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB40C09D16367BDC00BE45F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB40C09E16367BDC00BE45F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB40C0A016367BDC00BE45F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditor/TextEditor-Prefix.pch";
+				INFOPLIST_FILE = "TextEditor/TextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB40C0A116367BDC00BE45F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEditor/TextEditor-Prefix.pch";
+				INFOPLIST_FILE = "TextEditor/TextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB40C07B16367BDC00BE45F3 /* Build configuration list for PBXProject "TextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40C09D16367BDC00BE45F3 /* Debug */,
+				BB40C09E16367BDC00BE45F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB40C09F16367BDC00BE45F3 /* Build configuration list for PBXNativeTarget "TextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40C0A016367BDC00BE45F3 /* Debug */,
+				BB40C0A116367BDC00BE45F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB40C07816367BDC00BE45F3 /* Project object */;
+}
