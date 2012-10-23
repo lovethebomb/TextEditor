@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
 @property (retain, nonatomic) IBOutlet UITextField *searchField;
 @property (retain, nonatomic) IBOutlet UITextView *textView;
