@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UITextField *searchField;
+@property (retain, nonatomic) IBOutlet UITextView *textView;
+@property (retain, nonatomic) IBOutlet UIButton *doneButton;
+
+- (IBAction)doneButtonPressed:(id)sender;
+
 @end
